@@ -68,53 +68,35 @@ Easy to extend into formal linear programming
 Users can input nutrition goals and a daily budget, then instantly generate an optimized meal plan.
 
 (Add screenshot after deployment)
-![Optimized Meal Plan Screenshot](screenshot.png)
 
 ⚙️ How It Works
 
 User inputs goals
-
 Daily calories
-
 Protein, carbohydrates, fat, fiber
-
 Daily food budget
-
 System optimizes
 
 Scores foods based on nutritional efficiency per dollar
-
 Iteratively selects food portions that close nutrient gaps
-
 Respects budget and portion constraints
-
 User receives recommendations
-
 Optimized meal plan
 
 Cost breakdown
-
 Nutritional totals vs goals
-
 Visual analytics (charts)
-
 📈 The Analytics Behind It
 
 Data
-
 Nutritional values and costs for common foods (protein, grains, vegetables, dairy, fruits)
-
 Optimization Logic
-
 Greedy heuristic with weighted scoring:
-
 Protein coverage
-
 Calorie coverage
-
 Fiber coverage
-
 Cost penalty
+
 
 Output
 
