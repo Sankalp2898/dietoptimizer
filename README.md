@@ -1,4 +1,9 @@
 Diet Planner Pro – Cost-Optimized Nutrition Planning
+
+APP Preview- 
+https://dietoptimizer-njk7hud7yut4d7g5ggjlde.streamlit.app/
+
+
 🎯 The Problem
 
 Planning a nutritionally balanced diet is harder than it looks—especially when cost is a constraint.
@@ -142,8 +147,8 @@ This project was built as part of ISOM 839 – Prescriptive Analytics
 at Suffolk University, with a focus on designing analytics products, not just models.
 
 Author: Sankalp Patel
-LinkedIn: (add your LinkedIn URL)
-Email: (add your email)
+LinkedIn: (https://www.linkedin.com/in/sankalp-patel98/)
+Email: (Sankalp2898@gmail.com)
 
 🔮 Future Possibilities
 
@@ -171,17 +176,6 @@ Corporate wellness programs
 
 Budget-conscious consumers
 
-🎬 Demo Video
 
-(Add Loom or screen recording link here)
-3-minute walkthrough explaining problem → model → decisions
-
-🧠 The 70/30 Philosophy
-
-70% Thinking & Design
-Problem selection, analytics framing, constraints, objective functions, and decision logic.
-
-30% Building & Shipping
-A deployed Streamlit application that demonstrates the concept end-to-end.
 
 The value of this project is not the code alone—it’s the ability to identify a real decision problem and design an intelligent solution.
