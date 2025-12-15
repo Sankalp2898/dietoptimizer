@@ -11,68 +11,48 @@ Planning a nutritionally balanced diet is harder than it looks—especially when
 Individuals, students, and working professionals often have specific calorie and macronutrient goals (calories, protein, carbs, fiber), but translating those goals into an affordable, actionable meal plan is non-trivial. Most diet apps focus on tracking or generic recommendations, not on optimizing decisions under constraints.
 
 From an analytics perspective, this is a classic resource allocation problem:
-
 Multiple food choices
-
 Competing nutritional objectives
-
 A fixed budget
-
 Trade-offs between cost, calories, and macronutrients
 
 This problem matters because poor optimization leads to:
 
 Overspending on food
-
 Nutrient imbalance
-
 Inconsistent adherence to health goals
 
 💡 The Solution
 
 Diet Planner Pro is a prescriptive analytics application that computes an optimized daily meal plan tailored to a user’s nutritional targets and budget.
-
 Instead of telling users what they ate, the app answers:
-
 “Given my goals and budget, what should I eat today?”
-
 Prescriptive Analytics Approach
-
 The system models diet planning as an optimization problem:
-
 Decision variables: Quantity of each food item
 
 Objective: Maximize nutritional goal satisfaction while minimizing cost
 
 Constraints:
-
 Budget limit
-
 Calorie target
-
 Macronutrient targets (protein, carbs, fiber)
-
 Practical portion sizes
 
 A greedy heuristic optimization algorithm scores foods based on nutritional efficiency (nutrition per dollar) and iteratively selects optimal portions until constraints are met.
 
 This makes the solution:
-
 Transparent
-
 Fast
-
 Interpretable
-
 Easy to extend into formal linear programming
 
 🚀 Live Demo
 
-👉 Try the app here: (Streamlit link coming soon)
+👉 Try the app here: (https://dietoptimizer-njk7hud7yut4d7g5ggjlde.streamlit.app/)
 
 Users can input nutrition goals and a daily budget, then instantly generate an optimized meal plan.
 
-(Add screenshot after deployment)
 
 ⚙️ How It Works
 
